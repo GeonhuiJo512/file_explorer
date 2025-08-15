@@ -381,6 +381,6 @@ class SshFileExplorer:
 
 if __name__ == "__main__":
     root = ThemedTk(theme="ubuntu")
-    root.geometry("2000x680")
+    root.geometry("2000x800")
     app = SshFileExplorer(root)
     root.mainloop()
